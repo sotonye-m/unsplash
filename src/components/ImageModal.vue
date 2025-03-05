@@ -10,7 +10,7 @@
       </div>
       <div class="modal-details">
         <h2>{{ image.user.name }}</h2>
-        <p>{{ image.location || 'Unknown Location' }}</p>
+        <p>{{ image.user.location || 'Unknown Location' }}</p>
       </div>
     </div>
   </div>
